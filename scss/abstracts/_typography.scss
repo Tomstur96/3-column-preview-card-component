@@ -1,5 +1,5 @@
-$ff-sans: "Lato", sans-serif;
-$ff-serif: "Abril Fatface", serif;
+$ff-sans: "Lexend Deca", sans-serif;
+$ff-serif: "Big Shoulders Display", serif;
 
 $ff-base: $ff-sans;
 $ff-accent: $ff-serif;
@@ -9,8 +9,8 @@ $font-sizes: (
   800: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
   600: clamp(1.5rem, 0.5rem + 3vw, 1.6875rem),
   500: 1.3125rem,
-  400: 1.125rem,
-  300: 1rem,
+  400: 1rem,
+  300: 0.9375rem,
 );
 
 $fw-400: 400;

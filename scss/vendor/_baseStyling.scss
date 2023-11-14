@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+
+.heading {
+  &__2 {
+    font-family: $ff-accent;
+    font-size: size(40);
+    font-weight: $fw-700;
+    text-transform: uppercase;
+    margin-block-end: size(24);
+  }
+}

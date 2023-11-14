@@ -6,6 +6,30 @@
 
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
+  height: 100vh;
+  align-items: center;
+
+  & > :first-child {
+    border-radius: size(8) 0px 0px size(8);
+  }
+
+  & > :last-child {
+    border-radius: 0px size(8) size(8) 0px;
+  }
+
+  @include mq(54em, $type: max) {
+    flex-wrap: wrap;
+    padding-block: size(16);
+    height: auto;
+
+    & > :first-child {
+      border-radius: size(8) size(8) 0px 0px;
+    }
+
+    & > :last-child {
+      border-radius: 0px 0px size(8) size(8);
+    }
+  }
 }
 
 .container[data-type="wide"] {

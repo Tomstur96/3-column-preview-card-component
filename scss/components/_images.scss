@@ -1,0 +1,6 @@
+@use "../abstracts/" as *;
+
+.image {
+  margin-block-start: size(48);
+  margin-block-end: size(36);
+}
